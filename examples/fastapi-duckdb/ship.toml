@@ -1,0 +1,13 @@
+version = 1
+name = "ship-example"
+domain = "ship-example.apps.teemusaha.com"
+
+[service]
+container_port = 8000
+healthcheck = "/health"
+memory = "384m"
+cpus = 0.5
+
+[data]
+enabled = true
+container_path = "/data"

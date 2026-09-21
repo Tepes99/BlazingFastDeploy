@@ -1,0 +1,4 @@
+.env.production
+*.duckdb
+*.duckdb.wal
+data/
