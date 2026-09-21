@@ -1,0 +1,22 @@
+schema_version: 1
+
+project:
+  name: blazingfastdeploy
+  title: Blazing Fast Deploy
+  summary: Personal CLI for publishing containerized web applications to a single Docker host
+
+classification:
+  visibility: public
+  kind: tool
+  stage: alpha
+  status: active
+  version: 0.1.0
+
+workspace:
+  groups: []
+  preferred_machines: []
+
+documentation:
+  entrypoint: README.md
+  architecture: docs/application-contract.md
+
